@@ -1,6 +1,6 @@
 # HOTEL HTML AND CSS
 
-Project created with basic html and css - course Udemy
+Project created with basic HTML and CSS - course Udemy
 
 ![](header.jpg)
 
