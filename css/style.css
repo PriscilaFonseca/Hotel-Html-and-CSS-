@@ -31,6 +31,49 @@ p {
   padding: 0 20px;
 }
 
+.text-primary {
+  color: rgb(247, 192, 138);
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background: rgb(51, 51, 51);
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(247, 192, 138);
+  color: rgb(68, 68, 68);
+}
+
+.btn-light {
+  background: rgb(244, 244, 244);
+  color: rgb(68, 68, 68)
+}
+
+.bg-dark {
+  background: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
+}
+
+.bg-light {
+  background: rgb(244, 244, 244);
+  color: rgb(68, 68, 68);
+}
+
+.bg-primary {
+  background: rgb(68, 68, 68);
+  color: rgb(247, 192, 138);
+}
+
 #navbar {
   background-color: rgb(51, 51, 51);
   color: rgb(255, 255, 255);
@@ -64,7 +107,51 @@ p {
 }
 
 #navbar ul li a:hover {
-  background-color: rgb(68,68,68);
-  color: rgb(247,192,138);
+  background-color: rgb(68, 68, 68);
+  color: rgb(247, 192, 138);
 }
 
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
